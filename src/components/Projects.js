@@ -41,7 +41,7 @@ const Projects = () => {
       // github: "https://github.com/yourusername/restaurant-api",
       // live: "https://restaurant-api-docs.com",
       figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
-      type: "web"
+      type: "mobile"
     },
     {
       id: 4,
