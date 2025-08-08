@@ -3,6 +3,7 @@ import { FaGithub, FaExternalLinkAlt, FaCode, FaMobile, FaGlobe, FaFigma} from '
 import './styles/Projects.css';
 import faceMashImg from '../assets/imgs/facemash.png';
 import deliveryImg from '../assets/imgs/dalivery.png';
+import lottoIMG from '../assets/imgs/lotto.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -34,7 +35,7 @@ const Projects = () => {
       id: 3,
       title: "Lotto",
       description: "API สำหรับระบบจัดการร้านอาหาร รวมถึงการจัดการเมนู การจองโต๊ะ และการสั่งอาหาร",
-      image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=Restaurant+API",
+      image: lottoIMG,
       category: "fullstack",
       technologies: ["Flutter", "MongoDB", "Angular", "Node.js", "Figma"],
       // github: "https://github.com/yourusername/restaurant-api",
