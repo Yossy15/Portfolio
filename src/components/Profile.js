@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaGithub, FaFacebookF, FaEnvelope, FaDownload } from 'react-icons/fa';
 import './styles/Profile.css';
+import profileImg from "../assets/imgs/profile.jpg";
 
+const ID = "1iC8ybmcJClmPBFbfK6K3DtHsa0XOFGcz";
 const Profile = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -16,13 +18,13 @@ const Profile = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              สวัสดีครับ, ผมชื่อ <span className="highlight">YOSSY</span>
+              สวัสดีครับ, ผมชื่อ <span className="highlight"> นายสุวิจักณ์ ใจสุข</span>
             </h1>
             <h2 className="hero-subtitle">
               Full-Stack Developer
             </h2>
             <p className="hero-description">
-              ผมเป็นนักพัฒนาเว็บไซต์ที่มีความเชี่ยวชาญในการพัฒนาแอปพลิเคชันแบบ Full-Stack 
+              ผมสนใจในสายงานนักพัฒนาเว็บไซต์ที่มีการพัฒนาแอปพลิเคชันแบบ Full-Stack 
               ตั้งแต่ Front-end ไปจนถึง Back-end และ Database
             </p>
             
@@ -34,18 +36,21 @@ const Profile = () => {
                 ดูผลงาน
               </button>
               <button className="btn btn-secondary">
-                <FaDownload /> ดาวน์โหลด Resume
+                <FaDownload /> <a href={`https://drive.google.com/uc?export=download&id=${ID}`}>ดาวน์โหลด Resume</a>
+              </button>
+              <button className="btn btn-secondary">
+                <a href={`https://drive.google.com/file/d/${ID}/view?usp=sharing`} target="_blank">ดู Resume</a>
               </button>
             </div>
 
             <div className="hero-social">
-              <a href="https://www.facebook.com/profile.php?id=100000000000000" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/padyod.suwijak.2025" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
               </a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Yossy15" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:65011212240@msu.ac.th">
                 <FaEnvelope />
               </a>
             </div>
@@ -57,14 +62,15 @@ const Profile = () => {
                 {/* ใส่รูปโปรไฟล์ของคุณที่นี่ */}
                 <div className="placeholder-image">
                   <span>
-                    <img src="https://wallpapers.com/images/hd/cool-profile-pictures-hoodie-cat-6dkl56hixhnq590g.jpg" style={{borderRadius: '50%'}} alt="Profile" />
+                    <img src={profileImg} style={{borderRadius: '50%'}} alt="Profile" />
                   </span>
                 </div>
               </div>
               <div className="profile-info">
                 <h3>YOSSY</h3>
                 <p>Full-Stack Developer</p>
-                <p>📍 มหาสารคาม, ประเทศไทย</p>
+                <p>📍 มหาวิทยาลัยมหาสารคาม <br /> จังหวัดมหาสารคาม ประเทศไทย</p>
+                
               </div>
             </div>
           </div>

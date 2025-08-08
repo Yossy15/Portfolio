@@ -94,7 +94,7 @@ const Skills = () => {
           </div>
 
           <div className="positions-section">
-            <h3 className="positions-title">ตำแหน่งที่เชี่ยวชาญ</h3>
+            <h3 className="positions-title">ตำแหน่งที่สนใจ</h3>
             <div className="positions-grid">
               {positions.map((position, index) => (
                 <div key={index} className="position-card">

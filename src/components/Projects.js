@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { FaGithub, FaExternalLinkAlt, FaCode, FaMobile, FaGlobe } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaCode, FaMobile, FaGlobe, FaFigma} from 'react-icons/fa';
 import './styles/Projects.css';
 import faceMashImg from '../assets/imgs/facemash.png';
+import deliveryImg from '../assets/imgs/dalivery.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -11,9 +12,9 @@ const Projects = () => {
       id: 1,
       title: "Food Delivery",
       description: "แอปพลิเคชันที่ให้คุณสั่งอาหารจากร้านอาหารมากมาย ผ่านมือถือ และรับเองที่ร้าน หรือส่งไปบ้าน โดยมีราคาที่ใช่ และรสชาติที่ชอบ",
-      image: "https://via.placeholder.com/400x250/667eea/ffffff?text=E-Commerce",
+      image: deliveryImg,
       category: "fullstack",
-      technologies: ["Flutter", "Dart", "MongoDB", "Angular", "Node.js"],
+      technologies: ["Flutter", "MongoDB", "Angular", "Node.js", "Figma" , "Cloudinary"],
       // github: "",
       // live: "https://ecommerce-demo.com",
       type: "mobile"
@@ -23,21 +24,22 @@ const Projects = () => {
       title: "FaceMask",
       description: "แอปพลิเคชันจัดอันดับแรงค์ ผลโหวตของผู้คนในรายสัปดาห์",
       image: faceMashImg,
-      category: "frontend",
-      technologies: ["Angular", "Node.js", "Cloudinary", "Material-UI", "MongoDB", "JWT", "Express"],
+      category: "fullstack",
+      technologies: ["Angular", "Node.js", "JWT", "Cloudinary", "Material-UI", "MongoDB", "Express"],
       // github: "https://github.com/yourusername/task-app",
       // live: "https://task-app-demo.com",
       type: "web"
     },
     {
       id: 3,
-      title: "Lottery",
+      title: "Lotto",
       description: "API สำหรับระบบจัดการร้านอาหาร รวมถึงการจัดการเมนู การจองโต๊ะ และการสั่งอาหาร",
       image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=Restaurant+API",
-      category: "backend",
-      technologies: ["Node.js", "Express", "MongoDB", "JWT"],
+      category: "fullstack",
+      technologies: ["Flutter", "MongoDB", "Angular", "Node.js", "Figma"],
       // github: "https://github.com/yourusername/restaurant-api",
       // live: "https://restaurant-api-docs.com",
+      figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
     },
     {
@@ -49,16 +51,53 @@ const Projects = () => {
       technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
       // github: "https://github.com/yourusername/fitness-app",
       // live: "https://fitness-app-demo.com",
+      
       type: "mobile"
+    },
+    {
+      id: 5,
+      title: "Pizza",
+      description: "....",
+      image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
+      category: "fullstack",
+      technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
+      // github: "https://github.com/yourusername/fitness-app",
+      // live: "https://fitness-app-demo.com",
+      
+      type: "web"
+    },
+    {
+      id: 6,
+      title: "On-Screen Keyboard on Desktop & Libary JavaScript & Chorme Extension",
+      description: "....",
+      image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
+      category: "fullstack",
+      technologies: ["python", "javaScript", "AES"],
+      // github: "https://github.com/yourusername/fitness-app",
+      // live: "https://fitness-app-demo.com",
+      
+      type: "web"
+    },
+    {
+      id: 7,
+      title: "Paint",
+      description: "....",
+      image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
+      category: "fullstack",
+      technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
+      // github: "https://github.com/yourusername/fitness-app",
+      // live: "https://fitness-app-demo.com",
+      
+      type: "web"
     },
   ];
 
-  const filters = [
-    { id: 'all', label: 'ทั้งหมด' },
-    { id: 'fullstack', label: 'Full-Stack' },
-    { id: 'frontend', label: 'Frontend' },
-    { id: 'backend', label: 'Backend' }
-  ];
+  // const filters = [
+  //   { id: 'all', label: 'ทั้งหมด' },
+  //   { id: 'fullstack', label: 'Full-Stack' },
+  //   { id: 'frontend', label: 'Frontend' },
+  //   { id: 'backend', label: 'Backend' }
+  // ];
 
   const filteredProjects = activeFilter === 'all' 
     ? projects 
@@ -77,7 +116,7 @@ const Projects = () => {
       <div className="section-container">
         <h2 className="section-title">ผลงานของฉัน</h2>
         
-        <div className="projects-filter">
+        {/* <div className="projects-filter">
           {filters.map(filter => (
             <button
               key={filter.id}
@@ -87,7 +126,7 @@ const Projects = () => {
               {filter.label}
             </button>
           ))}
-        </div>
+        </div> */}
 
         <div className="projects-grid">
           {filteredProjects.map(project => (
@@ -101,6 +140,9 @@ const Projects = () => {
                     </a>
                     <a href={project.live} target="_blank" rel="noopener noreferrer">
                       <FaExternalLinkAlt />
+                    </a>
+                    <a href={project.figma} target="_blank" rel="noopener noreferrer">
+                      <FaFigma />
                     </a>
                   </div>
                 </div>
@@ -125,12 +167,12 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="projects-cta">
+        {/* <div className="projects-cta">
           <p>สนใจผลงานของฉันหรือไม่?</p>
           <a href="#contact" className="btn btn-primary">
             ติดต่อเพื่อปรึกษา
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
