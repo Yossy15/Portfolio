@@ -1,9 +1,14 @@
 import React from 'react';
 import { FaGithub, FaFacebookF, FaEnvelope, FaDownload } from 'react-icons/fa';
 import './styles/Profile.css';
-import profileImg from "../assets/imgs/profile.jpg";
+import profileImg from "../assets/imgs/profile_test.webp";
 
-const ID = "1iC8ybmcJClmPBFbfK6K3DtHsa0XOFGcz";
+// const ID = "1iC8ybmcJClmPBFbfK6K3DtHsa0XOFGcz";
+const ID = "1mXg_xTTPxhBbgiPrzYOjUJ-VhANSfEwU";
+
+// const face = "https://www.facebook.com/padyod.suwijak.2025";
+const face = "#";
+
 const Profile = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -18,7 +23,7 @@ const Profile = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              สวัสดีครับ, ผมชื่อ <span className="highlight"> นายสุวิจักณ์ ใจสุข</span>
+              สวัสดีครับ, ผมชื่อ <span className="highlight"> YOSSY</span>
             </h1>
             <h2 className="hero-subtitle">
               Full-Stack Developer
@@ -44,7 +49,7 @@ const Profile = () => {
             </div>
 
             <div className="hero-social">
-              <a href="https://www.facebook.com/padyod.suwijak.2025" target="_blank" rel="noopener noreferrer">
+              <a href={`${face}`} target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
               </a>
               <a href="https://github.com/Yossy15" target="_blank" rel="noopener noreferrer">

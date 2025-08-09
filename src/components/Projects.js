@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { FaGithub, FaExternalLinkAlt, FaCode, FaMobile, FaGlobe, FaFigma} from 'react-icons/fa';
 import './styles/Projects.css';
 import faceMashImg from '../assets/imgs/facemash.png';
-import deliveryImg from '../assets/imgs/dalivery.png';
-import lottoIMG from '../assets/imgs/lotto.png';
+import deliveryImg from '../assets/imgs/daliverys.png';
+import lottoIMG from '../assets/imgs/lottos.png';
+import imdbImg from '../assets/imgs/imdb.png';
+import oskIMG from '../assets/imgs/osk.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -18,6 +20,7 @@ const Projects = () => {
       technologies: ["Flutter", "MongoDB", "Angular", "Node.js", "Figma" , "Cloudinary"],
       // github: "",
       // live: "https://ecommerce-demo.com",
+      // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "mobile"
     },
     {
@@ -29,6 +32,7 @@ const Projects = () => {
       technologies: ["Angular", "Node.js", "JWT", "Cloudinary", "Material-UI", "MongoDB", "Express"],
       // github: "https://github.com/yourusername/task-app",
       // live: "https://task-app-demo.com",
+      // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
     },
     {
@@ -40,57 +44,45 @@ const Projects = () => {
       technologies: ["Flutter", "MongoDB", "Angular", "Node.js", "Figma"],
       // github: "https://github.com/yourusername/restaurant-api",
       // live: "https://restaurant-api-docs.com",
-      figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
+      // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "mobile"
     },
     {
       id: 4,
-      title: "IMBI",
-      description: "....",
-      image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
-      category: "fullstack",
+      title: "IMDB",
+      description: "เว็ปให้คะแนนและรีวิวหนังจากผู้ชมทั่วโลก มีข้อมูลครบถ้วนเกี่ยวกับภาพยนตร์และซีรีส์ทุกประเภท",
+      image: imdbImg,
+      category: "frontend",
       technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
       // github: "https://github.com/yourusername/fitness-app",
       // live: "https://fitness-app-demo.com",
-      
-      type: "mobile"
+      // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
+      type: "web"
     },
     {
       id: 5,
       title: "Pizza",
-      description: "....",
+      description: "เว็ปไซตืสำหรับการออกแบบการสั่งซื้อพิซซ่า และการชำระเงิน",
       image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
-      category: "fullstack",
+      category: "frontend",
       technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
       // github: "https://github.com/yourusername/fitness-app",
       // live: "https://fitness-app-demo.com",
-      
+      // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
     },
     {
       id: 6,
-      title: "On-Screen Keyboard on Desktop & Libary JavaScript & Chorme Extension",
-      description: "....",
-      image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
+      title: "On-Screen Keyboard on Desktop & Libary JavaScript & Chorme Extension Defend Keylogger",
+      description: "แป้นพิมพ์บนหน้าจอที่ป้องกันการโจมตีจาก Keylogger ได้ทั้งในระดับ OS และ Network รองรับทั้งระบบ Windows, Linux(Ubuntu), Libary API และ Chrome Extension",
+      image: oskIMG,
       category: "fullstack",
       technologies: ["python", "javaScript", "AES"],
       // github: "https://github.com/yourusername/fitness-app",
       // live: "https://fitness-app-demo.com",
-      
-      type: "web"
-    },
-    {
-      id: 7,
-      title: "Paint",
-      description: "....",
-      image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
-      category: "fullstack",
-      technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
-      // github: "https://github.com/yourusername/fitness-app",
-      // live: "https://fitness-app-demo.com",
-      
-      type: "web"
-    },
+      // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
+      type: "app"
+    }
   ];
 
   // const filters = [
