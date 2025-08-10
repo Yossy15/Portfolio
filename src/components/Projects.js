@@ -6,6 +6,7 @@ import deliveryImg from '../assets/imgs/daliverys.png';
 import lottoIMG from '../assets/imgs/lottos.png';
 import imdbImg from '../assets/imgs/imdb.png';
 import oskIMG from '../assets/imgs/osk.png';
+import pizzaIMG from '../assets/imgs/pizza.png'
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -17,8 +18,8 @@ const Projects = () => {
       description: "แอปพลิเคชันที่ให้คุณสั่งอาหารจากร้านอาหารมากมาย ผ่านมือถือ และรับเองที่ร้าน หรือส่งไปบ้าน โดยมีราคาที่ใช่ และรสชาติที่ชอบ",
       image: deliveryImg,
       category: "fullstack",
-      technologies: ["Flutter", "MongoDB", "Angular", "Node.js", "Figma" , "Cloudinary"],
-      // github: "",
+      technologies: ["Flutter", "MongoDB", "Node.js", "Figma" , "Cloudinary"],
+      github: "https://github.com/Yossy15/Project/tree/main/delivery",
       // live: "https://ecommerce-demo.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "mobile"
@@ -29,8 +30,8 @@ const Projects = () => {
       description: "แอปพลิเคชันจัดอันดับแรงค์ ผลโหวตของผู้คนในรายสัปดาห์",
       image: faceMashImg,
       category: "fullstack",
-      technologies: ["Angular", "Node.js", "JWT", "Cloudinary", "Material-UI", "MongoDB", "Express"],
-      // github: "https://github.com/yourusername/task-app",
+      technologies: ["Node.js", "JWT", "Cloudinary", "MongoDB", "Express"],
+      github: "https://github.com/Yossy15/Project/tree/main/facemask",
       // live: "https://task-app-demo.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
@@ -38,10 +39,10 @@ const Projects = () => {
     {
       id: 3,
       title: "Lotto",
-      description: "API สำหรับระบบจัดการร้านอาหาร รวมถึงการจัดการเมนู การจองโต๊ะ และการสั่งอาหาร",
+      description: "https://github.com/Yossy15/Project/tree/main/lotto",
       image: lottoIMG,
       category: "fullstack",
-      technologies: ["Flutter", "MongoDB", "Angular", "Node.js", "Figma"],
+      technologies: ["Flutter", "MongoDB", "Node.js", "Figma"],
       // github: "https://github.com/yourusername/restaurant-api",
       // live: "https://restaurant-api-docs.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
@@ -53,7 +54,7 @@ const Projects = () => {
       description: "เว็ปให้คะแนนและรีวิวหนังจากผู้ชมทั่วโลก มีข้อมูลครบถ้วนเกี่ยวกับภาพยนตร์และซีรีส์ทุกประเภท",
       image: imdbImg,
       category: "frontend",
-      technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
+      technologies: ["Html", "API", "CSS"],
       // github: "https://github.com/yourusername/fitness-app",
       // live: "https://fitness-app-demo.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
@@ -63,9 +64,9 @@ const Projects = () => {
       id: 5,
       title: "Pizza",
       description: "เว็ปไซตืสำหรับการออกแบบการสั่งซื้อพิซซ่า และการชำระเงิน",
-      image: "https://via.placeholder.com/400x250/f5576c/ffffff?text=Fitness+App",
+      image: pizzaIMG,
       category: "frontend",
-      technologies: ["React Native", "Node.js", "MongoDB", "Expo"],
+      technologies: ["Html", "PHP", "MySql", "Xampp"],
       // github: "https://github.com/yourusername/fitness-app",
       // live: "https://fitness-app-demo.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
@@ -78,8 +79,8 @@ const Projects = () => {
       image: oskIMG,
       category: "fullstack",
       technologies: ["python", "javaScript", "AES"],
-      // github: "https://github.com/yourusername/fitness-app",
-      // live: "https://fitness-app-demo.com",
+      github: "https://github.com/stars/Yossy15/lists/sosk",
+      live: "https://loginshp.onrender.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "app"
     }
