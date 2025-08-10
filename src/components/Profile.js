@@ -1,13 +1,12 @@
 import React from 'react';
-import { FaGithub, FaFacebookF, FaEnvelope, FaDownload } from 'react-icons/fa';
+import { FaGithub, FaFacebookF, FaEnvelope, FaDownload, FaEye } from 'react-icons/fa';
 import './styles/Profile.css';
 import profileImg from "../assets/imgs/profile_test.webp";
 
 // const ID = "1iC8ybmcJClmPBFbfK6K3DtHsa0XOFGcz";
 const ID = "1b19s3f2NpOOHJdLEqIXLhypW8onBATVi";
 
-// const face = "https://www.facebook.com/padyod.suwijak.2025";
-const face = "#";
+const face = "https://www.facebook.com/padyod.suwijak.2025";
 
 const Profile = () => {
   const scrollToSection = (sectionId) => {
@@ -23,7 +22,7 @@ const Profile = () => {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              สวัสดีครับ, ผมชื่อ <span className="highlight"> YOSSY</span>
+              สวัสดีครับ, ผมชื่อ <span className="highlight"> นายสุวิจักณ์ ใจสุข</span>
             </h1>
             <h2 className="hero-subtitle">
               Full-Stack Developer
@@ -44,7 +43,16 @@ const Profile = () => {
                 <FaDownload /> <a href={`https://drive.google.com/uc?export=download&id=${ID}`}>ดาวน์โหลด Resume</a>
               </button>
               <button className="btn btn-secondary">
-                <a href={`https://drive.google.com/file/d/${ID}/view?usp=sharing`} target="_blank">ดู Resume</a>
+              <FaEye /><a href={`https://drive.google.com/file/d/${ID}/view?usp=sharing`} target="_blank"> ดู Resume</a>
+              </button>
+            </div>
+
+            <div className="hero-buttons mg-top">
+              <button className="btn btn-secondary">
+                <FaEye /><a href={`https://drive.google.com/file/d/12ilzBvG-0AXTGeodcULFwNV1-4uIBISb/view?usp=sharing`} target="_blank"> ใบรับรองการเป็นนิสิต</a>
+              </button>
+              <button className="btn btn-secondary">
+                <FaEye /> <a href={`https://drive.google.com/file/d/1aFHE0V-NC_yJqR5CpLFog3MIYl8_ETYq/view?usp=sharing`} target="_blank"> Transcript</a>
               </button>
             </div>
 

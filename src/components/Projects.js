@@ -39,11 +39,11 @@ const Projects = () => {
     {
       id: 3,
       title: "Lotto",
-      description: "https://github.com/Yossy15/Project/tree/main/lotto",
+      description: "แอปพลิเคชันจำลองการซื้อขายสล่กกินแบ่ง และตรวจเช็คสลากกินแบ่ง พร้อมมีการจัดการในหน้าของ Admin ในการออกสลากกินแบ่ง",
       image: lottoIMG,
       category: "fullstack",
       technologies: ["Flutter", "MongoDB", "Node.js", "Figma"],
-      // github: "https://github.com/yourusername/restaurant-api",
+      github: "https://github.com/Yossy15/Project/tree/main/lotto",
       // live: "https://restaurant-api-docs.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "mobile"
@@ -63,7 +63,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Pizza",
-      description: "เว็ปไซตืสำหรับการออกแบบการสั่งซื้อพิซซ่า และการชำระเงิน",
+      description: "เว็ปไซต์สำหรับการออกแบบการสั่งซื้อพิซซ่า และการชำระเงิน",
       image: pizzaIMG,
       category: "frontend",
       technologies: ["Html", "PHP", "MySql", "Xampp"],
@@ -74,8 +74,8 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "On-Screen Keyboard on Desktop & Libary JavaScript & Chorme Extension Defend Keylogger",
-      description: "แป้นพิมพ์บนหน้าจอที่ป้องกันการโจมตีจาก Keylogger ได้ทั้งในระดับ OS และ Network รองรับทั้งระบบ Windows, Linux(Ubuntu), Libary API และ Chrome Extension",
+      title: "On-Screen Keyboard on Desktop & Library JavaScript & Chorme Extension Defend Keylogger",
+      description: "แป้นพิมพ์บนหน้าจอที่ป้องกันการโจมตีจาก Keylogger ได้ทั้งในระดับ OS และ Network รองรับทั้งระบบ Windows, Linux(Ubuntu), Library API และ Chrome Extension",
       image: oskIMG,
       category: "fullstack",
       technologies: ["python", "javaScript", "AES"],

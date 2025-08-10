@@ -23,13 +23,13 @@ const About = () => {
                 <div className="info-item">
                   <FaUser className="info-icon" />
                   <div>
-                    <strong>ชื่อ:</strong> นายทองดี มีสุขขีมากกก{" (พัดยศ)"}
+                    <strong>ชื่อ:</strong> นายสุวิจักณ์ ใจสุข{" (พัดยศ)"}
                   </div>
                 </div>
                 <div className="info-item">
                   <FaMapMarkerAlt className="info-icon" />
                   <div>
-                    <strong>ที่อยู่:</strong> บ้าน, ประเทศไทย
+                    <strong>ที่อยู่:</strong> 20/1 หมู่9, ตำบลตรมไพร, อำเภอศีขรภูมิ, จังหวัดสุรินทร์, 32110, ประเทศไทย
                   </div>
                 </div>
                 <div className="info-item">
@@ -57,7 +57,7 @@ const About = () => {
                   <div>
                     <strong>การศึกษาระดับปริญญาตรี</strong><br /> วิทยาการคอมพิวเตอร์ มหาวิทยาลัยมหาสารคาม จังหวัดมหาสารคาม{" (GPAX: 3.06)"}
                     <br /><br />
-                    <strong>การศึกษาระดับมัธยมศึกษาตอนปลาย</strong><br /> โรงเรียนบรรยายธิการ{" (GPAX: 3.48)"}
+                    <strong>การศึกษาระดับมัธยมศึกษาตอนปลาย</strong><br /> โรงเรียนศีขรภูมิพิสัย จังหวัดสุรินทร์{" (GPAX: 3.48)"}
                     <br />
                   </div>
                 </div>

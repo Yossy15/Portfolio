@@ -18,6 +18,10 @@
   opacity: 0.3;
 }
 
+.mg-top {
+  margin-top: -25px;
+}
+
 .hero-container {
   max-width: 1200px;
   margin: 0 auto;
