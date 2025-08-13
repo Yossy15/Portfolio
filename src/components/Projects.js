@@ -32,7 +32,7 @@ const Projects = () => {
       category: "fullstack",
       technologies: ["Node.js", "JWT", "Cloudinary", "MongoDB", "Express"],
       github: "https://github.com/Yossy15/Project/tree/main/facemask",
-      // live: "https://task-app-demo.com",
+      live: "https://stately-pixie-12fd56.netlify.app/",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
     },
@@ -43,7 +43,7 @@ const Projects = () => {
       image: lottoIMG,
       category: "fullstack",
       technologies: ["Flutter", "MongoDB", "Node.js", "Figma"],
-      github: "https://github.com/Yossy15/Project/tree/main/lotto",
+      github: "https://github.com/Yossy15/LottoFront",
       // live: "https://restaurant-api-docs.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "mobile"
@@ -67,7 +67,7 @@ const Projects = () => {
       image: pizzaIMG,
       category: "frontend",
       technologies: ["Html", "PHP", "MySql", "Xampp"],
-      // github: "https://github.com/yourusername/fitness-app",
+      github: "https://github.com/Yossy15/Project/tree/main/pizza",
       // live: "https://fitness-app-demo.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
