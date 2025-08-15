@@ -4,7 +4,7 @@ import './styles/Projects.css';
 import faceMashImg from '../assets/imgs/facemash.png';
 import deliveryImg from '../assets/imgs/daliverys.png';
 import lottoIMG from '../assets/imgs/lottos.png';
-import imdbImg from '../assets/imgs/imdb.png';
+import imdbImg from '../assets/imgs/imdb_.png';
 import oskIMG from '../assets/imgs/osk.png';
 import pizzaIMG from '../assets/imgs/pizza.png'
 
@@ -20,17 +20,17 @@ const Projects = () => {
       category: "fullstack",
       technologies: ["Flutter", "MongoDB", "Node.js", "Figma" , "Cloudinary"],
       github: "https://github.com/Yossy15/Project/tree/main/delivery",
-      // live: "https://ecommerce-demo.com",
+      live: "https://www.figma.com/proto/zTEgOEK1od423JScs8hh1l/Delivery_app?node-id=11-8255&starting-point-node-id=11%3A8255",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "mobile"
     },
     {
       id: 2,
       title: "FaceMask",
-      description: "แอปพลิเคชันจัดอันดับแรงค์ ผลโหวตของผู้คนในรายสัปดาห์",
+      description: "แอปพลิเคชันจัดอันดับแรงค์ ผลโหวตของผู้คน 10 อันดับ",
       image: faceMashImg,
       category: "fullstack",
-      technologies: ["Node.js", "JWT", "Cloudinary", "MongoDB", "Express"],
+      technologies: ["Node.js", "JWT", "Cloudinary", "MongoDB", "Angular"],
       github: "https://github.com/Yossy15/Project/tree/main/facemask",
       live: "https://stately-pixie-12fd56.netlify.app/",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
@@ -44,7 +44,7 @@ const Projects = () => {
       category: "fullstack",
       technologies: ["Flutter", "MongoDB", "Node.js", "Figma"],
       github: "https://github.com/Yossy15/LottoFront",
-      // live: "https://restaurant-api-docs.com",
+      live: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "mobile"
     },
@@ -54,9 +54,9 @@ const Projects = () => {
       description: "เว็ปให้คะแนนและรีวิวหนังจากผู้ชมทั่วโลก มีข้อมูลครบถ้วนเกี่ยวกับภาพยนตร์และซีรีส์ทุกประเภท",
       image: imdbImg,
       category: "frontend",
-      technologies: ["Html", "API", "CSS"],
-      // github: "https://github.com/yourusername/fitness-app",
-      // live: "https://fitness-app-demo.com",
+      technologies: ["Html", "JSON", "CSS", "Angular"],
+      github: "https://github.com/Yossy15/Imdb_",
+      live: "https://imdb-7mwx.onrender.com",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
     },
@@ -135,9 +135,9 @@ const Projects = () => {
                     <a href={project.live} target="_blank" rel="noopener noreferrer">
                       <FaExternalLinkAlt />
                     </a>
-                    <a href={project.figma} target="_blank" rel="noopener noreferrer">
+                    {/* <a href={project.figma} target="_blank" rel="noopener noreferrer">
                       <FaFigma />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="project-type">

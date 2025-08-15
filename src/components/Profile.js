@@ -45,9 +45,6 @@ const Profile = () => {
               <button className="btn btn-secondary">
               <FaEye /><a href={`https://drive.google.com/file/d/${ID}/view?usp=sharing`} target="_blank"> ดู Resume</a>
               </button>
-            </div>
-
-            <div className="hero-buttons mg-top">
               <button className="btn btn-secondary">
                 <FaEye /><a href={`https://drive.google.com/file/d/12ilzBvG-0AXTGeodcULFwNV1-4uIBISb/view?usp=sharing`} target="_blank"> ใบรับรองการเป็นนิสิต</a>
               </button>
@@ -55,7 +52,7 @@ const Profile = () => {
                 <FaEye /> <a href={`https://drive.google.com/file/d/1aFHE0V-NC_yJqR5CpLFog3MIYl8_ETYq/view?usp=sharing`} target="_blank"> Transcript</a>
               </button>
             </div>
-
+            
             <div className="hero-social">
               <a href={`${face}`} target="_blank" rel="noopener noreferrer">
                 <FaFacebookF />
