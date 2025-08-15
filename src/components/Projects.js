@@ -56,7 +56,7 @@ const Projects = () => {
       category: "frontend",
       technologies: ["Html", "JSON", "CSS", "Angular"],
       github: "https://github.com/Yossy15/Imdb_",
-      live: "https://imdb-7mwx.onrender.com",
+      live: "https://imdb-mu-ashy.vercel.app/",
       // figma: "https://www.figma.com/proto/6GWVqBH2IP2Mb8MkFnqdud/Mobile_Lotto?node-id=1-2&starting-point-node-id=1%3A2",
       type: "web"
     },
