@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaGithub, FaFacebookF, FaEnvelope, FaDownload, FaEye } from 'react-icons/fa';
 import './styles/Profile.css';
-import profileImg from "../assets/imgs/profile_test.webp";
+// import profileImg from "../assets/imgs/profile_test.webp";
+import profileImg from "../assets/imgs/profile.jpg";
 
 // const ID = "1iC8ybmcJClmPBFbfK6K3DtHsa0XOFGcz";
 const ID = "1mk6gCinN0_l2dEpy8Y9BfppeXIfnoI2c";
@@ -72,7 +73,7 @@ const Profile = () => {
                 {/* ใส่รูปโปรไฟล์ของคุณที่นี่ */}
                 <div className="placeholder-image">
                   <span>
-                    <img src={profileImg} style={{borderRadius: '50%'}} alt="Profile" />
+                    <img src={profileImg} style={{borderRadius: '50%', width: '100%', height: '100%'}} alt="Profile" />
                   </span>
                 </div>
               </div>
